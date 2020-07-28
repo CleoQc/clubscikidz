@@ -4,13 +4,16 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "gigglesensors": "github:dexterind/pxt-gigglesensors#v0.1"
+        "gigglesensors": "github:dexterind/pxt-gigglesensors#v0.1",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.6.7",
+        "radio-broadcast": "*"
     },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
-        "custom.ts"
+        "gigglebot.ts",
+        "giggle.ts"
     ],
     "testFiles": [
         "test.ts"
